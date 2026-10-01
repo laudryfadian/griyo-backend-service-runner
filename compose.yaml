@@ -1,0 +1,9 @@
+services:
+  runner:
+    build: .
+    env_file: runner.env
+    volumes:
+      - workspaces:/workspaces
+    restart: unless-stopped
+volumes:
+  workspaces:

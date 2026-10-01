@@ -1,0 +1,5 @@
+.git
+.env
+deploy/.env
+bin
+runner.env
